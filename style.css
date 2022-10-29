@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #777;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav ul{
+    margin: 0px;
+ }
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block ;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgba(255,255,255,0.4);
+}
+.main-nav{
+    text-align:center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid lightgrey ;
+}
+.main-nav li{
+    padding:0 3%  ;
+}
+.main-header{
+    background-color: rgba(0,0,0,0.4);
+    background-image: url("back2.jpeg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.band-name{
+    text-align: center;
+    margin: 0;
+    padding-top: 12px;
+    color: white;
+    font-size: 7em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content-section{
+    margin: 1em;
+
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.about-band-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 40%;
+}
+.main-footer{
+    background-color: lightblue;
+    color: blue;
+    padding: 0.25em 0;
+
+}
+.main-footer-container{
+    display: flex;
+    align-items: center ;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li{
+    padding: 0 .5em;
+}
+.footer-nav img{
+    width: 30px;
+    height: 30px ;
+}.nav a:visited{
+    background-color: rgba(255,255,255,0.4);
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em; 
+    cursor: pointer;
+}
+.btn-header{
+    margin: 0.5em 15% 2em 15%;
+    color: white;
+    border: 2px solid lightblue;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 0;
+    font-size: 1em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+    position: relative;
+    left: 23%;
+}
+.btn-header:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+.btn-play{
+    display: block;
+    position: static;
+    margin: 0 auto;
+    color: lightblue;
+    border-radius: 50% ;
+    padding: 0;
+    font-size: 4em;
+    width:100px;
+    height: 100px;
+}
